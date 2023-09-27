@@ -1,0 +1,128 @@
+body{
+    background-color: ivory;
+}
+
+header{
+    background-color:lightgrey;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 4em;
+}
+header li > a:hover {
+    background-color: cyan;
+}
+
+
+#facts-section{
+    border-collapse: collapse;
+    border: darkblue;
+    color:black;    
+     
+}
+
+h1{
+    color: burywood;
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    text-decoration: underline;
+  
+}
+
+#discography{
+    text-align: center;
+}
+
+table{
+    display: table;
+    box-sizing:border-box;
+    
+    text-indent: initial;
+    border-spacing: 4px; 
+    border-color: gray;
+    border-collapse: collapse;
+    border-bottom: solid;
+    border-top: solid;
+
+    margin-right: auto;
+    margin-left: auto;
+  
+}
+
+th{
+    
+    color: rgb(10, 0, 0);
+    border-collapse: collapse;
+    margin: 25px;
+    min-width: 150px;    
+    border-right: solid;
+    border-left: solid; 
+    border-bottom: solid;
+    
+}
+
+thead tr{
+    background-color: cyan;
+    text-align: left;
+    font-size: 1.3em; 
+    
+}
+
+
+tbody td{
+    border-right: solid;
+    border-left: solid;
+    padding: 8px;
+    border-bottom: solid;
+    background-color: rgb(245, 173, 223);
+    color: white;
+    border-color: black;
+    
+}
+
+#quotes-section{
+    text-align: center;
+    padding-bottom: 5em;
+    padding-top: 3em
+}
+
+#quotes-section>h3{
+    text-decoration: underline;
+
+}
+#quotes-section> blockquote{
+    font-style: italic;
+    
+}
+
+img{
+    width: 400px;
+    border: 2px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+#links-section{
+    text-align: center;
+
+}
+
+#links-section > ul{
+    list-style: none;
+}
+
+#links-section  li{
+    
+    display: block;
+    text-align: center;
+}
+
+#links-section li > a:hover{
+    background-color: cyan;
+}

@@ -1,0 +1,38 @@
+form{
+    background-color: rgb(150, 212, 212);
+    border: solid 1px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.5em;
+    
+}
+
+form > input{
+    margin: .8em;
+    
+}
+
+#submit{
+    width: 10em;
+    height: 2em;
+    font-size: .5em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  
+    
+}
+header{
+    background-color: rgb(247, 245, 245);
+    border-top: solid 1px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    font-size: 2em;
+}
+
+body{
+    background-color: black;
+}
